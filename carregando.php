@@ -13,58 +13,62 @@
     <!-- Menu Principal -->
     <?php include 'menu.php';?>
 
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title"><i class="fa fa-truck fa-lg" aria-hidden="true"></i> Carregamento Grãos</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="table-responsive">
-                            <table class="table table-hover table-striped">
-                                <thead>
-                                    <tr>
-                                        <th class="text-center">ID</th>
-                                        <th class="text-center">ENTRADA/SAÍDA</th>
-                                        <th class="text-center">PLACA</th>
-                                        <th class="text-center">MOTORISTA</th>
-                                        <th class="text-center">EMPRESA</th>
-                                        <th class="text-center">CHEGADA/ENTRADA</th>
-                                        <th class="text-center">STATUS</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center">
-                                    <tr>
-                                        <td>1</td>
-                                        <td><a class="btn btn-block btn-warning">Entrar <i class="fa fa-long-arrow-right fa-lg" aria-hidden="true"></i></a></td>
-                                        <td>NDI630</td>
-                                        <td>Claudio</td>
-                                        <td>Cargill</td>
-                                        <td>2016-06-03 09:28:00</td>
-                                        <td>Fila</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td><a class="btn btn-block btn-danger"><i class="fa fa-long-arrow-left fa-lg" aria-hidden="true"></i> Sair</a></td>
-                                        <td>NDI630</td>
-                                        <td>Claudio</td>
-                                        <td>Cargill</td>
-                                        <td>2016-06-03 09:28:00</td>
-                                        <td>Fila</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+    <!-- Conteúdo -->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="breadcrumb"><li><a href="index.php">Início</a></li>
+                        <li><a href="lista-geral.php">Lista Geral</a></li>
+                        <li class="active">Carregando</li></ul>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-truck fa-lg" aria-hidden="true"></i> Carregamento Grãos</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">ID</th>
+                                                <th class="text-center">ENTRADA/SAÍDA</th>
+                                                <th class="text-center">PLACA</th>
+                                                <th class="text-center">MOTORISTA</th>
+                                                <th class="text-center">EMPRESA</th>
+                                                <th class="text-center">CHEGADA/ENTRADA</th>
+                                                <th class="text-center">STATUS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <td>1</td>
+                                                <td><a class="btn btn-block btn-warning">Entrar <i class="fa fa-long-arrow-right fa-lg" aria-hidden="true"></i></a></td>
+                                                <td>NDI630</td>
+                                                <td>Claudio</td>
+                                                <td>Cargill</td>
+                                                <td>2016-06-03 09:28:00</td>
+                                                <td>Fila</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td><a class="btn btn-block btn-danger"><i class="fa fa-long-arrow-left fa-lg" aria-hidden="true"></i> Sair</a></td>
+                                                <td>NDI630</td>
+                                                <td>Claudio</td>
+                                                <td>Cargill</td>
+                                                <td>2016-06-03 09:28:00</td>
+                                                <td>Fila</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-    <!-- jQuery (obrigatório para plugins JavaScript) -->
-    <?php include 'js.php';?>
-</body>
-</html>
+        <!-- jQuery (obrigatório para plugins JavaScript) -->
+        <?php include 'js.php';?>
+    </body>
+    </html>
