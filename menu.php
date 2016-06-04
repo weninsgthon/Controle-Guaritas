@@ -18,6 +18,9 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Embarque <i class="fa fa-angle-down fa-lg"></i></a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
+						<a href="carregamento.php">Carregamento</a>
+						</li>
+						<li>
 							<a href="carregando.php">Carregando</a>
 						</li>
 						<li>
